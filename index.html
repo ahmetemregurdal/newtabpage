@@ -5,11 +5,26 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>New Tab</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Hello Ahmet Emre</h1>
+		<h1 id="title">Hello <a href="https://codeforces.com/profile/Ahmet_Emre" id="name">Ahmet Emre</a></h1>
 		<p>CF Rating: <strong id="rating-value"></strong></p>
 		<p>Left Until <strong id="next-rank"></strong>: <strong id="remaining-rating"></strong></p>
+		<br/>
+		<div class="search-container">
+			<input type="text" id="search-input" placeholder="Enter your search term">
+		</div>
+		<h1>
+			<a href="https://reddit.com"><i class="fa-brands fa-reddit fa" style="color: #e78a4e;"></i></a>
+			<a href="https://codeforces.com"><svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 24 24"><path fill="currentColor" d="M4.5 7.5A1.5 1.5 0 0 1 6 9v10.5A1.5 1.5 0 0 1 4.5 21h-3C.673 21 0 20.328 0 19.5V9c0-.828.673-1.5 1.5-1.5zm9-4.5A1.5 1.5 0 0 1 15 4.5v15a1.5 1.5 0 0 1-1.5 1.5h-3c-.827 0-1.5-.672-1.5-1.5v-15c0-.828.673-1.5 1.5-1.5zm9 7.5A1.5 1.5 0 0 1 24 12v7.5a1.5 1.5 0 0 1-1.5 1.5h-3a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5z"/></svg></a>
+			<a href="https://youtube.com"><i class="fa-brands fa-youtube fa" style="color: #ea6962"></i></a>
+			<a href="https://github.com/ahmetemregurdal"><i class="fa-brands fa-github fa"></i></a>
+		</h1>
 		<script src="fetchCFapi.js"></script>
+		<script src="https://kit.fontawesome.com/687bd51546.js" crossorigin="anonymous"></script>
+		<script src="searchBox.js"></script>
 	</body>
 </html>

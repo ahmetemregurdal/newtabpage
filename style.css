@@ -1,6 +1,8 @@
 * {
 	background: #1d2021;
 	color: #d4be98;
+	text-align: center;
+	font-family: 'JetBrains Mono', monospace;
 }
 
 .newbie {
@@ -24,6 +26,33 @@
 .grandmaster {
 	color: #ea6962;
 }
+.legendaryGrandmaster {
+	color: #ea6962;
+}
 .legendaryGrandmaster::first-letter {
 	color: #d4be98;
+}
+
+.fa {
+	font-size: 75px;
+}
+
+#name {
+	text-decoration: none;
+}
+
+.search-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+#search-input {
+	width: 50%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin: 0 auto;
+	display: block;
+	border-radius: 15px;
 }
