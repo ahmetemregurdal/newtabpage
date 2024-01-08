@@ -66,6 +66,8 @@ fetch(`https://codeforces.com/api/user.info?handles=Ahmet_Emre`)
 			nextRank = "You are already the best";
 			ratingContainer.classList.add('grandmaster');
 			nextRankCont.classList.add('grandmaster');
+			nextRankCont.classList.add('legendaryGrandmaster');
+			ratingContainer.classList.add('legendaryGrandmaster');
 		}
 		ratingContainer.textContent = rating;
 		nextRemainCont.textContent = leftUntilNext;

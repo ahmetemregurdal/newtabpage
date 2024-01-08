@@ -1,21 +1,29 @@
+* {
+	background: #1d2021;
+	color: #d4be98;
+}
+
 .newbie {
-	color: #808080;
+	color: #928374;
 }
 .pupil {
-	color: #008000;
+	color: #a9b665;
 }
 .specialist {
-	color: #13ada4;
+	color: #89b482;
 }
 .expert {
-	color: #0000ff;
+	color: #7daea3;
 }
 .candidateMaster {
-	color: #aa00aa;
+	color: #d3869b;
 }
 .master {
-	color: #ff8c00;
+	color: #d8a657;
 }
 .grandmaster {
-	color: #ff0000;
+	color: #ea6962;
+}
+.legendaryGrandmaster::first-letter {
+	color: #d4be98;
 }
