@@ -1,4 +1,4 @@
-fetch(`https://codeforces.com/api/user.info?handles=Ahmet_Emre`)
+fetch(`https://codeforces.com/api/user.info?handles=int23_t`)
 	.then(response => response.json())
 	.then(json => {
 		const rating = json.result[0].rating;
